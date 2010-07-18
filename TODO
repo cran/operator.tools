@@ -1,0 +1,18 @@
+
+ ? extend operators package
+
+ ? Can operators have multiple types?
+
+ ? operator/operators class? 
+
+ ? setInverse for adding to altering .Options$operators.inverse
+
+ ? fun2name: Move to function.tools
+   
+
+# ------------------------------------------------------
+# COMPLETED:
+# ------------------------------------------------------
+x fun2name: given the function, it identifies the .name
+   function (e1, e2)  .Primitive(">=") >===>  >=
+   

@@ -1,0 +1,12 @@
+2010-07-18 Version 1.0.0
+ - R/operator.type.R: Only registered operators are checked against a 
+   type.
+ - Various documentation tweaks.
+ - Added optimization to search REGISTERED before UNREGISTERED operators
+   in various functions
+ - R/fun2name.R: Added name2fun
+
+
+2010-07-16 Version 0.2.0 
+ - First CRAN Release
+
