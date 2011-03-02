@@ -3,7 +3,7 @@
 #   get the relational operators type of an call or expression
 #
 #   n.b.
-#     - cf operators::op.type
+#     - cf operators::operator.type
 #     - No replacement methods available for rel.type.
 # -----------------------------------------------------------------------------
 
@@ -23,4 +23,23 @@ rel.type.function <- function(x)
   } else { 
     NULL
   }
+
+rel.type.call <- function(x) 
+  if( is.name(x[[1]]) ) 
+    rel.type( as.name( x[[1]] )  ) else
+    NULL
+
+  
+  
+
+
+
+# rel.type expression.  This does not quite work since expressions
+# are not necessarily a LHS OP RHS construction. 
+# rel.type.expression <- function(x) 
+#   sapply(x, function(x) rel.type(x[[1]])  )
+
+
+  
+
 

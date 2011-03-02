@@ -1,3 +1,4 @@
+# This sets up the operators.
 .initOps <- function() {
 
   setOperator( '::',  type = 'namespace' )
@@ -25,7 +26,11 @@
   setOperator( '>',    type = 'relational', inverse = '<=', rel.type = 'gt' )
   setOperator( '>=',   type = 'relational', inverse = '<',  rel.type = 'gt' )
   setOperator( '==',   type = 'relational', inverse = '!=', rel.type = 'eq' )
+  setOperator( '!=',   type = 'relational', inverse = '==', rel.type = 'ne' )
   setOperator( '%in%', type = 'relational', rel.type = 'eq' )  # %!in% 
+  # setOperator( '%in%' , type = 'relational', inverse='%!in%', rel.type = 'eq' )
+  # setOperator( '%!in%', type = 'relational', inverse='%in%' , rel.type = 'ne' )
+
 
   setOperator( '!',  type = 'logical' ) # inverse = identity, !?    
   setOperator( '&',  type = 'logical' )
