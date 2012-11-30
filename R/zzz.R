@@ -2,12 +2,13 @@
 # .First.lib <- function( libname, pkgname ) {
 .onAttach <- function( libname, pkgname ) {
 
-  cat(
+
+  packageStartupMessage( 
     pkgname ,
     "-" ,
-    utils::installed.packages()[ pkgname , "Version"],
-    " provided by Decision Patterns\n\n" ,
-    sep = ""
+    utils::packageVersion(pkgname, libname),
+    " provided by Decision Patterns\n" ,
+    domain = NA
   )
 
   # Initializes package

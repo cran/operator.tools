@@ -11,8 +11,8 @@ This package contains tools for manipulating R operators.
   \tabular{ll}{
     Package: \tab operator.toolss\cr
     Type: \tab Package\cr
-    Version: \tab 1.2.1\cr
-    Date: \tab 2011-03-02\cr
+    Version: \tab 1.3.0\cr
+    Date: \tab 2012-11-30\cr
     License: \tab GPL-2\cr
   }
 }
