@@ -13,8 +13,8 @@
     )
 
 
-  # Initializes package
-  .initOps()
-
 }
 
+.onLoad <- function(libname, pkgname) 
+  # Initializes package
+  .initOps()
