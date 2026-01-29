@@ -1,6 +1,10 @@
 library(testthat)
 library(operator.tools)
 
+is_true <- function() {
+  function(x) expect_true(x)
+}
+
 test_that( 'opetators', {
 context( 'Function: is.operator' )
 for( op in operators() ) 

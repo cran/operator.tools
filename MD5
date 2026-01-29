@@ -1,5 +1,5 @@
 64d9340651284fca1f5e18c5f2d65577 *ChangeLog
-9f289c076c313218e6bd4af6abcba7bb *DESCRIPTION
+292dc96851e8086ad292ee157d8942e4 *DESCRIPTION
 074803dd507bee9f872edf68e06e2e50 *LICENSE
 7f5b26a757840ccfea24178019dadc66 *NAMESPACE
 32886f9664c0b0d5b622b52f341fcee9 *NEWS.md
@@ -32,4 +32,4 @@ f5fe5af918cdfb08e08b09bc79ce2c81 *tests/testthat.R
 7b0a07cdf270b6187cc4f9020e4ddcd4 *tests/testthat/test-fun2name.R
 1ac81cad92d942ffa992da7c9138abac *tests/testthat/test-init.R
 7df26d9af88ba72f63209a1368733a8a *tests/testthat/test-inverse.R
-450eb97e9470dd1e5e733fd8a3a1977a *tests/testthat/test-operators.R
+0bc52cacbd527f59301fcedf9ddcd803 *tests/testthat/test-operators.R
